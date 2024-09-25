@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+Proyecto: Abstracción en Programación Orientada a Objetos (POO)
+Este proyecto está diseñado para demostrar el concepto de abstracción dentro del paradigma de Programación Orientada a Objetos (POO). En POO, la abstracción es una de las cuatro características fundamentales, junto con la encapsulación, la herencia y el polimorfismo.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¿Qué es la abstracción?
+La abstracción se refiere al proceso de ocultar los detalles de implementación complejos y exponer únicamente los aspectos esenciales de un objeto. El objetivo es simplificar la interacción del usuario con los objetos, proporcionando una interfaz clara y fácil de entender que solo revela las funcionalidades necesarias. Esto permite que los desarrolladores trabajen con objetos sin tener que preocuparse por los detalles internos de cómo están implementados.
 
-## Available Scripts
+Aplicación de la abstracción en este proyecto
+En este proyecto, se han diseñado varias clases que representan entidades del mundo real. Estas clases han sido abstraídas para que solo expongan las características y comportamientos más relevantes, ocultando los detalles de implementación más complejos.
 
-In the project directory, you can run:
+Por ejemplo, una clase puede representar una entidad genérica con ciertos atributos y métodos accesibles desde una interfaz pública. Los detalles internos de cómo estas entidades operan están encapsulados dentro de las clases, asegurando que el usuario solo interactúe con los métodos y propiedades necesarias sin preocuparse por su funcionamiento interno.
 
-### `npm start`
+Este enfoque hace que el código sea más legible, mantenible y escalable, ya que permite a los desarrolladores enfocarse en la lógica de negocio sin tener que lidiar con la implementación detallada de cada objeto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Requisitos
+Node.js (versión mínima 14)
+npm o yarn
+Cómo clonar el proyecto
+Para clonar este repositorio en tu máquina local, ejecuta el siguiente comando en tu terminal:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+bash
+Copiar código
+git clone https://github.com/tuusuario/tu-proyecto.git
+Luego, navega dentro de la carpeta del proyecto:
 
-### `npm test`
+bash
+Copiar código
+cd tu-proyecto
+Instalación de dependencias
+Una vez que estés en la carpeta del proyecto, instala las dependencias necesarias con el siguiente comando:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Usando npm
+bash
+Copiar código
+npm install
+Usando yarn
+bash
+Copiar código
+yarn install
+Levantar el servidor
+Para levantar el servidor y visualizar el proyecto en tu navegador, utiliza uno de los siguientes comandos:
 
-### `npm run build`
+Usando npm
+bash
+Copiar código
+npm start
+Usando yarn
+bash
+Copiar código
+yarn start
+El servidor se iniciará en el puerto http://localhost:3000 (o el puerto especificado en la configuración del proyecto). Abre tu navegador y dirígete a esa URL para interactuar con la aplicación y explorar cómo se ha aplicado el concepto de abstracción.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contribuciones
+Si deseas contribuir a este proyecto, siéntete libre de abrir un pull request o reportar un problema a través de los issues.
