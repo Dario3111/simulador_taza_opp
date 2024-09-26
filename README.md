@@ -55,3 +55,6 @@ El servidor se iniciará en el puerto http://localhost:3000 (o el puerto especif
 
 Contribuciones
 Si deseas contribuir a este proyecto, siéntete libre de abrir un pull request o reportar un problema a través de los issues.
+
+
+![simulador_taza_de_cafe_dario](https://github.com/user-attachments/assets/fd4c9951-0fa8-41ba-ac0a-c899698089a5)
