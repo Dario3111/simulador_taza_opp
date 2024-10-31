@@ -1,6 +1,7 @@
 // src/components/TazaComponent.tsx
 import React, { useState } from "react";
 import Taza from "./Taza"; // Importamos la clase Taza
+import TextToSpeech from "./TextToSpeech"; // Importamos el componente de Texto a Voz
 
 const TazaComponent: React.FC = () => {
   // Creamos una instancia de la clase Taza CANTIDAD ACTUAL
@@ -23,6 +24,9 @@ const TazaComponent: React.FC = () => {
     setCantidad(miTaza.obtenerCantidad());
   };
 
+  // Texto para leer en voz alta
+  const textoParaLeer = `Mi taza de ${miTaza.obtenerLiquido()} tiene actualmente ${cantidad} mililitros.`;
+
   return (
     <div>
       <h2>Mi Taza de {miTaza.obtenerLiquido()}</h2>
@@ -32,6 +36,9 @@ const TazaComponent: React.FC = () => {
       <button onClick={handleLlenar}>Llenar 50ml</button>
       <button onClick={handleBeber}>Beber 50ml</button>
       <button onClick={handleVaciar}>Vaciar Taza</button>
+
+      {/* Agregamos el componente de Texto a Voz */}
+      <TextToSpeech text={textoParaLeer} />
     </div>
   );
 };

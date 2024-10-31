@@ -61,3 +61,11 @@ button:active {
   background-color: #2c2c2c;
   box-shadow: 0 0 15px #00ffff, 0 0 30px #ff007f;
 }
+
+/* src/App.css */
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
